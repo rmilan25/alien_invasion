@@ -16,7 +16,7 @@ class Keys:
             if event.type == pygame.QUIT:
                 sys.exit()
             elif event.type == pygame.KEYDOWN:
-                print(pygame.KEYDOWN)
+                print('key pressed')
 
 test = Keys()
 test.run_test()

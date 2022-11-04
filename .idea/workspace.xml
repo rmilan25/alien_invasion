@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fa63521-e7ac-44fc-849c-e788af30f9b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homework/objects_sideways_shooter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/sideways_shooter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game_stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/better_stars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/rain_drops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/star_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/stars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/steady_rain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bullet.py" beforeDir="false" afterPath="$PROJECT_DIR$/bullet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/objects_sideways_shooter.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/objects_sideways_shooter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/sideways_shooter.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/sideways_shooter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ship.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/images/ship.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/ship.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Stub" />
         <option value="Python Script" />
       </list>
     </option>
@@ -40,13 +50,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/m254362/Desktop/EW200/Labs/Lab7/alien_invasion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/m254362/Desktop/EW200/Labs/Lab7/alien_invasion"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

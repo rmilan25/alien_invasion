@@ -3,7 +3,7 @@ from pygame.sprite import Sprite
 
 class SideShooter:
     def __init__(self):
-        self.screen = pygame.display.set_mode((400, 400))
+        self.screen = pygame.display.set_mode((700, 700))
         self.screen.fill((128, 0, 0))
         self.screen_rect = self.screen.get_rect()
         #Load bomber
@@ -22,7 +22,7 @@ class SideShooter:
     def update_movement(self):
         if self.moving_up and self.rect.top > 0:
             self.y -= .1
-        elif self.moving_down and self.rect.bottom < 400:
+        elif self.moving_down and self.rect.bottom < 700:
             self.y += .1
         self.rect.x = self.x
         self.rect.y = self.y
@@ -34,9 +34,9 @@ class Bullet(Sprite):
 
     def __init__(self,homework_game):
         super().__init__()
-        self.screen = pygame.display.set_mode((400, 400))
+        self.screen = pygame.display.set_mode((700, 700))
 
-        self.bullet_speed = .01
+        self.bullet_speed = 1
         self.bullet_width = 15
         self.bullet_height = 3
         self.bullet_color = (255,255,255)
@@ -52,3 +52,19 @@ class Bullet(Sprite):
 
     def draw_bullet(self):
         pygame.draw.rect(self.screen,self.bullet_color,self.rect)
+
+class Invader(Sprite):
+    def __init__(self, screen):
+        super().__init__()
+        self.screen = screen
+        self.screen_rect = self.screen.get_rect()
+        #Load star
+        self.image = pygame.image.load('../images/invader.png')
+        self.rect = self.image.get_rect()
+        self.rect.x = self.rect.width
+
+
+    def update(self):
+        self.rect.x -= 1
+
+
